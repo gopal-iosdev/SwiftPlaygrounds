@@ -25,6 +25,4 @@ let person = Person(name: "Gopal", age: 31, address: "63 Irving Street", contact
 //person.address = "63 Irving Street"
 //person.contactNumber = 8322972222
 
-print(person)
-
 //: [Next](@next)
