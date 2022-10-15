@@ -16,7 +16,7 @@ struct Person {
     var contactNumber: UInt64
 }
 
-let person = Person(name: "Gopal", age: 31, address: "63 Irving Street", contactNumber: 8322972222)
+let person = Person(name: "Gopal Rao", age: 31, address: "63 Irving Street", contactNumber: 8322972222)
 
 //person.name = "Gopal"
 //person.age = 31
