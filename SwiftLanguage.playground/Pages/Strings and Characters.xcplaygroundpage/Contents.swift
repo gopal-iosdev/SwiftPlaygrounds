@@ -9,8 +9,6 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
-
 struct Person {
     let name: String
     var age: UInt8
