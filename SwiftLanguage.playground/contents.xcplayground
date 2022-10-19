@@ -4,5 +4,6 @@
         <page name='The Basics'/>
         <page name='Basic Operators'/>
         <page name='Strings and Characters'/>
+        <page name='Collection Types'/>
     </pages>
 </playground>
