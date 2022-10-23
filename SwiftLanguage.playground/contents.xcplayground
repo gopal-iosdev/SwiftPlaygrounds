@@ -5,5 +5,7 @@
         <page name='Basic Operators'/>
         <page name='Strings and Characters'/>
         <page name='Collection Types'/>
+        <page name='Control Flow'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>

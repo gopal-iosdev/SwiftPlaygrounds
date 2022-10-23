@@ -18,8 +18,8 @@ import Foundation
     - This method removes the key-value pair if it exists and returns the removed value, or returns nil if no value existed
  
  */
-
-/*
+ 
+ // MARK: Arrays
 
 var threeDoubles = Array(repeating: 0.0, count: 3)
 print(threeDoubles)
@@ -105,8 +105,6 @@ houseAnimals.isStrictSubset(of: cityAnimals)
 farmAnimals.isStrictSuperset(of: houseAnimals)
 
 houseAnimals.isStrictSubset(of: cityAnimals)
-
- */
 
 
 // MARK: Dictionaries
