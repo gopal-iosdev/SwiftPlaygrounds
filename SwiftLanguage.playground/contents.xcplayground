@@ -8,6 +8,7 @@
         <page name='Control Flow'/>
         <page name='Functions'/>
         <page name='Closures'/>
+        <page name='Enumerations'/>
         <page name='Untitled Page'/>
     </pages>
 </playground>
