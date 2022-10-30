@@ -12,7 +12,8 @@
         - Example: case qrCode(String)
     - Raw Values:
         - The raw value initializer is a failable initializer, because not every raw value will return an enumeration case.
-    -
+    - Recursive Enumerations:
+        - A recursive enumeration is an enumeration that has another instance of the enumeration as the associated value for one or more of the enumeration cases.
  
  - Enumerations:
     - An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.
