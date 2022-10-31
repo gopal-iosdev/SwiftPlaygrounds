@@ -10,6 +10,7 @@
         <page name='Closures'/>
         <page name='Enumerations'/>
         <page name='Structures and Classes'/>
+        <page name='Properties'/>
         <page name='Untitled Page'/>
     </pages>
 </playground>
