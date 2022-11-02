@@ -302,7 +302,7 @@ for customerProvider in customerProviders {
     print("Now serving \(customerProvider())!")
 }
 
-assert(customersInLine.count > 1, "Only One Customer")
+//assert(customersInLine.count > 1, "Only One Customer")
 
 
 //: [Next](@next)
