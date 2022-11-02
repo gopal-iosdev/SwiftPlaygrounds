@@ -97,9 +97,4 @@ print("AutomaticCar: \(automatic.description)")
 
 
 
-//car.description = "My Desc"
-//
-//print("After Car: \(car.description)")
-
-
 //: [Next](@next)

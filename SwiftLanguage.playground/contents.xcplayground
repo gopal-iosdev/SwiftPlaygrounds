@@ -14,6 +14,7 @@
         <page name='Methods'/>
         <page name='Subscripts'/>
         <page name='Inheritance'/>
+        <page name='Initialization'/>
         <page name='Untitled Page'/>
     </pages>
 </playground>
