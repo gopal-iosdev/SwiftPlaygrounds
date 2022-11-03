@@ -10,7 +10,7 @@
     - For class instances, a constant property can be modified during initialization only by the class that introduces it. It can’t be modified by a subclass.
     - Structure types automatically receive a memberwise initializer if they don’t define any of their own custom initializers.
     - If you want your custom value type to be initializable with the default initializer and memberwise initializer, and also with your own custom initializers, write your custom initializers in an extension rather than as part of the value type’s original implementation.
-    - 2 types of Initializers:
+    - types of Initializers:
         - designated initializers:
             - primary initializers for a class.
             - A designated initializer fully initializes all properties introduced by that class and calls an appropriate superclass initializer to continue the initialization process up the superclass chain.
@@ -22,6 +22,12 @@
             - convenience modifier placed before the init keyword.
             - Convenience initializers must always delegate across.
             - You don't write the override modifier when overriding a superclass convenience initializer
+        - Required Initializers:
+            - @required.
+        - Failable
+            - init?()
+        - init! Failable Initializer:
+            - init!()
     - Swift’s two-phase initialization process is similar to initialization in Objective-C. The main difference is that during phase 1, Objective-C assigns zero or null values (such as 0 or nil) to every property. Swift’s initialization flow is more flexible in that it lets you set custom initial values, and can cope with types for which 0 or nil isn’t a valid default value.
     - A designated initializer must ensure that all of the properties introduced by its class are initialized before it delegates up to a superclass initializer.
     - A designated initializer must delegate up to a superclass initializer before assigning a value to an inherited property. If it doesn’t, the new value the designated initializer assigns will be overwritten by the superclass as part of its own initialization.
@@ -39,8 +45,6 @@
     - You don’t write the override modifier when overriding a required designated initializer.
     - You don’t have to provide an explicit implementation of a required initializer if you can satisfy the requirement with an inherited initializer.
     - If you use a closure to initialize a property, remember that the rest of the instance hasn’t yet been initialized at the point that the closure is executed. This means that you can’t access any other property values from within your closure, even if those properties have default values. You also can’t use the implicit self property, or call any of the instance’s methods.
-    -
- 
  
  - Initialization:
     - Initialization is the process of preparing an instance of a class, structure, or enumeration for use.
@@ -75,9 +79,9 @@
  
  */
 
-import UIKit
-
 /*
+ 
+ import UIKit
 
 // MARK: Initialization
 
