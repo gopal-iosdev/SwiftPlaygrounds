@@ -16,5 +16,6 @@
         <page name='Inheritance'/>
         <page name='Initialization'/>
         <page name='Deinitialization'/>
+        <page name='Optional Chaining'/>
     </pages>
 </playground>

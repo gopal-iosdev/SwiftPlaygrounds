@@ -11,7 +11,6 @@
              // perform the deinitialization
          }
     - Deinitializers are called automatically, just before instance deallocation takes place. You aren’t allowed to call a deinitializer yourself.
-    -
  
  - Deinitialization:
     - A deinitializer is called immediately before a class instance is deallocated. You write deinitializers with the deinit keyword
