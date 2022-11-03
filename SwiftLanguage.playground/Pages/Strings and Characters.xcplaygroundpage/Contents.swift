@@ -59,9 +59,11 @@
  
  */
 
-import Foundation
+
 
 /*
+ 
+ import Foundation
 
 let quotation = """
 The White Rabbit put on his spectacles.  "Where shall I begin,

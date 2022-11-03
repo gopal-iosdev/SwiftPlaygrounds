@@ -57,10 +57,9 @@
  
  */
 
-
-import Foundation
-
 /*
+ 
+ import Foundation
 
 struct FixedLengthRange {
     var firstValue: Int
@@ -349,8 +348,6 @@ func someFunction() {
     // now myNumber is 12
 }
 
- */
-
 // MARK: Type Properties
 
 struct SomeStructure {
@@ -415,5 +412,6 @@ print(rightChannel.currentLevel)
 
 print(AudioChannel.maxInputLevelForAllChannels)
 
+ */
 
 //: [Next](@next)

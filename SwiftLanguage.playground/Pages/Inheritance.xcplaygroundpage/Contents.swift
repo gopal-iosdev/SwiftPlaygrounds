@@ -22,6 +22,8 @@
  
  */
 
+/*
+
 import Foundation
 
 // MARK: Inheritance
@@ -95,6 +97,6 @@ let automatic = AutomaticCar()
 automatic.currentSpeed = 35.0
 print("AutomaticCar: \(automatic.description)")
 
-
+*/
 
 //: [Next](@next)

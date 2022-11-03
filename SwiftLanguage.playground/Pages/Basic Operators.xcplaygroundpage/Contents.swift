@@ -57,6 +57,8 @@
  
  */
 
+/*
+
 import UIKit
 
 var i = 8
@@ -154,3 +156,4 @@ print(emojiText.substring(with: NSRange(location: 0, length: 2)))
 
 print("Logical Operators")
 
+ */

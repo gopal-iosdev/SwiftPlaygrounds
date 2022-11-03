@@ -19,6 +19,8 @@
  
  */
 
+/*
+
 import Foundation
 
 // MARK: Subscripts
@@ -74,6 +76,8 @@ enum Planet: Int {
 }
 let mars = Planet[4]
 print(mars)
+ 
+ */
 
 
 //: [Next](@next)

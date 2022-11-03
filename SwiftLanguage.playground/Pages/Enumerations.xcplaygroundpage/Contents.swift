@@ -47,10 +47,10 @@
  
  */
 
-import Foundation
-
 /*
 
+ import Foundation
+ 
 enum CompassPoint {
     case north
     case south
@@ -128,8 +128,6 @@ case let .upc(numberSystem, manufacturer, product, check):
 case let .qrCode(productCode):
     print("QR code: \(productCode).")
 }
- 
- */
 
 // MARK: Raw Values
 
@@ -215,5 +213,7 @@ func evaluate2(_ expression: ArithmeticExpression) -> Int {
 print(evaluate(product))
 
 print(evaluate2(product))
+ 
+ */
 
 //: [Next](@next)

@@ -54,10 +54,10 @@
  
  */
 
-import Foundation
-
 /*
 // MARK: For-In Loops
+ 
+ import Foundation
 
 let names = ["Anna", "Alex", "Brian", "Jack"]
 for name in names {
@@ -316,8 +316,6 @@ default:
 }
 print(description)
 
- */
-
 // Labeled Statements
 
 let finalSquare = 25
@@ -346,5 +344,7 @@ gameLoop: while square != finalSquare {
     }
 }
 print("Game over!")
+ 
+ */
 
 //: [Next](@next)

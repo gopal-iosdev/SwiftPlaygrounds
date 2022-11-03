@@ -265,8 +265,6 @@ instanceStruct.doSomething()
 
 print("AFTER 2 SomeStruct doSomething or NonescapingClosure", instanceStruct.x)
 
- */
-
 // MARK: Autoclosures or @autoclosure
 
 var customersInLine = ["Chris", "Alex", "Ewa", "Barry", "Daniella", "Gopal"]
@@ -304,5 +302,6 @@ for customerProvider in customerProviders {
 
 //assert(customersInLine.count > 1, "Only One Customer")
 
+ */
 
 //: [Next](@next)

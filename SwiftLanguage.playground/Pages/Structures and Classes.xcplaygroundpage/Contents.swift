@@ -38,6 +38,8 @@
  */
 
 
+/*
+
 import Foundation
 
 struct Resolution {
@@ -94,5 +96,6 @@ if tenEighty === alsoTenEighty {
     print("tenEighty and alsoTenEighty refer to the same VideoMode instance.")
 }
 
+ */
 
 //: [Next](@next)

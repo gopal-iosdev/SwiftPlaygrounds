@@ -27,9 +27,10 @@
  
  */
 
-import Foundation
 
 /*
+ 
+ import Foundation
 
 class Counter {
     var count = 0
@@ -100,8 +101,6 @@ var ovenLight = TriStateSwitch.low
 ovenLight.next()
 // ovenLight is now equal to .high
 ovenLight.next()
- 
- */
 
 
 // Type Methods
@@ -160,6 +159,6 @@ if player.tracker.advance(to: 6) {
     print("level 6 hasn't yet been unlocked")
 }
 
-
+ */
 
 //: [Next](@next)

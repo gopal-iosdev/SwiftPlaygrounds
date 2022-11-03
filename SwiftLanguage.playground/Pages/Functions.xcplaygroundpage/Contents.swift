@@ -65,15 +65,14 @@
     - You can also define functions inside the bodies of other functions, known as nested functions.
  
  */
- 
-
-import Foundation
 
 
 // MARK: Tuples
 
 /*
 
+ import Foundation
+ 
 func minMax(array: [Int]) -> (min: Int, max: Int) {
     var currentMin = array[0]
     var currentMax = array[0]
@@ -222,8 +221,6 @@ while currentValue != 0 {
     currentValue = moveNearerToZero(currentValue)
 }
 print("zero!")
- 
- */
 
 // MARK: Nested Functions
 
@@ -240,5 +237,7 @@ while currentValue != 0 {
     currentValue = moveNearerToZero(currentValue)
 }
 print("zero!")
+ 
+ */
 
 //: [Next](@next)

@@ -81,61 +81,64 @@
  
  */
 
-import Foundation
-
-var red, green, blue: Double
-
-red = 2.45
-green = 2.45
-blue = 2.5
-
-print(red, green, blue)
-
-print(red, terminator: "Hello")
-
-let minValue = UInt8.min  // minValue is equal to 0, and is of type UInt8
-let maxValue = UInt8.max  // maxValue is equal to 255, and is of type UInt8
-
-print(minValue, maxValue)
-
-
-let three = 3
-let pointOneFourOneFiveNine = 0.14159
-let pi = Double(three) + pointOneFourOneFiveNine
-let intPi = Int(pi)
-
-print(pi)
-print(intPi)
-
-typealias AudioSample = UInt16
-
-print(AudioSample.max)
-
-var myNumber: Int?
-
-myNumber = 10
-
-let assumedString: String! = "An implicitly unwrapped optional string."
-
-//assumedString = nil
-
-print(assumedString)
-
-// MARK: - Assertion
-
-let age = -3
-let fileName: StaticString = "The Basics"
-//assert(age >= 0, "A person's age can't be less than zero.", file: fileName, line: 118)
-
-// MARK: - Precondition
-
-var index = 10
-precondition(index > -1, "Index must be greater than zero.")
-print("Code after precondition")
-
-if index <= 0 {
-    fatalError("Index must be greater than zero.")
-}
-
-print("Code after fatalError")
-
+/*
+ 
+ import Foundation
+ 
+ var red, green, blue: Double
+ 
+ red = 2.45
+ green = 2.45
+ blue = 2.5
+ 
+ print(red, green, blue)
+ 
+ print(red, terminator: "Hello")
+ 
+ let minValue = UInt8.min  // minValue is equal to 0, and is of type UInt8
+ let maxValue = UInt8.max  // maxValue is equal to 255, and is of type UInt8
+ 
+ print(minValue, maxValue)
+ 
+ 
+ let three = 3
+ let pointOneFourOneFiveNine = 0.14159
+ let pi = Double(three) + pointOneFourOneFiveNine
+ let intPi = Int(pi)
+ 
+ print(pi)
+ print(intPi)
+ 
+ typealias AudioSample = UInt16
+ 
+ print(AudioSample.max)
+ 
+ var myNumber: Int?
+ 
+ myNumber = 10
+ 
+ let assumedString: String! = "An implicitly unwrapped optional string."
+ 
+ //assumedString = nil
+ 
+ print(assumedString)
+ 
+ // MARK: - Assertion
+ 
+ let age = -3
+ let fileName: StaticString = "The Basics"
+ //assert(age >= 0, "A person's age can't be less than zero.", file: fileName, line: 118)
+ 
+ // MARK: - Precondition
+ 
+ var index = 10
+ precondition(index > -1, "Index must be greater than zero.")
+ print("Code after precondition")
+ 
+ if index <= 0 {
+ fatalError("Index must be greater than zero.")
+ }
+ 
+ print("Code after fatalError")
+ 
+ */
