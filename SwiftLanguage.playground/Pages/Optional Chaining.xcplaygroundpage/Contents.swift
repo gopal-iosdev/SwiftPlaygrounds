@@ -12,8 +12,6 @@
  - Optional Chaining:
     - Optional chaining is a process for querying and calling properties, methods, and subscripts on an optional that might currently be nil.
     - Multiple queries can be chained together, and the entire chain fails gracefully if any link in the chain is nil.
-    -
- 
  
  */
 
