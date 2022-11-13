@@ -9,6 +9,8 @@ import UIKit
 
 // V/S
 
+/*
+
 public struct Tag: Hashable, Codable {
     public var string: String
 
@@ -116,3 +118,5 @@ let testTag = Tag("testTag")
 let allTags: [Tag] = [.newRelease, .onSale, .promoted, testTag]
 
 allTags.forEach({ print($0) })
+
+*/
