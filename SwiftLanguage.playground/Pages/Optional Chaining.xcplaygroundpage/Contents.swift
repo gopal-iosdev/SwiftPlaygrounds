@@ -43,7 +43,6 @@ if let roomCount = john.residence?.numberOfRooms {
 } else {
     print("Unable to retrieve the number of rooms.")
 }
- */
 
 // Defining Model Classes for Optional Chaining
 
@@ -169,5 +168,6 @@ if let beginsWithThe =
     }
 }
 
+ */
 
 //: [Next](@next)

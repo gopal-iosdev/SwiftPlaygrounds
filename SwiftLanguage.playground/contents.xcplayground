@@ -18,5 +18,6 @@
         <page name='Deinitialization'/>
         <page name='Optional Chaining'/>
         <page name='Error Handling '/>
+        <page name='Filter, Map &amp; Reduce'/>
     </pages>
 </playground>
