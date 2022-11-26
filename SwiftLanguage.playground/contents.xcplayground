@@ -20,5 +20,6 @@
         <page name='Optional Chaining'/>
         <page name='Error Handling '/>
         <page name='Concurrency'/>
+        <page name='Type Casting '/>
     </pages>
 </playground>
