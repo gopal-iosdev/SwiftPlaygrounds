@@ -19,5 +19,6 @@
         <page name='Optional Chaining'/>
         <page name='Error Handling '/>
         <page name='Filter, Map &amp; Reduce'/>
+        <page name='Concurrency'/>
     </pages>
 </playground>
