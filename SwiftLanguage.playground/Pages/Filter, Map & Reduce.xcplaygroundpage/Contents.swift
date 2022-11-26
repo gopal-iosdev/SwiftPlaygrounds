@@ -115,6 +115,10 @@ let countsArrDict = arrayOfInts.reduce(into: [:]) { countsDict, arr in
 
 print(countsArrDict)
 
+let newDict = countsArrDict.lazy.sorted { $0.key > $1.key
+}
+
+print(newDict)
 
 
 //: [Next](@next)
