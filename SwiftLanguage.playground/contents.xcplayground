@@ -5,6 +5,7 @@
         <page name='Basic Operators'/>
         <page name='Strings and Characters'/>
         <page name='Collection Types'/>
+        <page name='Filter, Map &amp; Reduce'/>
         <page name='Control Flow'/>
         <page name='Functions'/>
         <page name='Closures'/>
@@ -18,7 +19,6 @@
         <page name='Deinitialization'/>
         <page name='Optional Chaining'/>
         <page name='Error Handling '/>
-        <page name='Filter, Map &amp; Reduce'/>
         <page name='Concurrency'/>
     </pages>
 </playground>
