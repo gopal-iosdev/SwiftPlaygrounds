@@ -22,5 +22,6 @@
         <page name='Concurrency'/>
         <page name='Type Casting '/>
         <page name='Nested Types'/>
+        <page name='Extensions'/>
     </pages>
 </playground>
