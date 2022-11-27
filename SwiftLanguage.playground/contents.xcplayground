@@ -21,5 +21,6 @@
         <page name='Error Handling '/>
         <page name='Concurrency'/>
         <page name='Type Casting '/>
+        <page name='Nested Types'/>
     </pages>
 </playground>
