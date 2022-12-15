@@ -6,5 +6,6 @@
         <page name='Closures'/>
         <page name='Functions'/>
         <page name='OptionSet'/>
+        <page name='Stride'/>
     </pages>
 </playground>

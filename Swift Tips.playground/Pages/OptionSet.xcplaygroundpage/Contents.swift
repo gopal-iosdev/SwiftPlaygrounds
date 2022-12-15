@@ -7,7 +7,7 @@
     - OptionSet in Swift allows you to define a set of options for configurations.
     - Src:
         - https://twitter.com/imrabti/status/1603365199108513795
-        -
+        - https://www.avanderlee.com/swift/optionset-swift/?utm_source=swiftlee&utm_medium=swiftlee_weekly&utm_campaign=issue_145
     - Call the object like it was a function.
 
 */
