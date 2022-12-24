@@ -28,5 +28,6 @@
         <page name='Opaque Types'/>
         <page name='Automatic Reference Counting'/>
         <page name='Memory Safety'/>
+        <page name='Unsafe Swift'/>
     </pages>
 </playground>
