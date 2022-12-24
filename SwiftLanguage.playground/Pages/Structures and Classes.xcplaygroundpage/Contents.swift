@@ -5,8 +5,14 @@
      https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes
  
  NOTE:
-    - Classes - Value Types, Example: Share Google Doc
-    - Structs - Value Types, Example: Share Excel Sheet
+    - Classes:
+        - Reference Types, Example: Share Google Doc.
+        - Requires Heap allocation.
+        
+    - Structs:
+        - Value Types, Example: Share Excel Sheet
+        - Stored in Stack.
+ 
     - Use structures by default.
     - Use classes when you need Objective-C interoperability.
     - Use classes when you need to control the identity of the data you’re modeling.
@@ -37,6 +43,7 @@
  
  */
 
+import Foundation
 
 /*
 
@@ -95,6 +102,33 @@ print("The frameRate property of tenEighty is now \(tenEighty.frameRate)")
 if tenEighty === alsoTenEighty {
     print("tenEighty and alsoTenEighty refer to the same VideoMode instance.")
 }
+
+ */
+
+// MARK: - Reference Counting
+
+/*
+class Point {
+    var refCount = 0
+    var x, y: Double
+    func draw() {}
+    
+    init(x: Double, y: Double) {
+        self.refCount += 1
+        
+        self.x = x
+        self.y = y
+    }
+}
+
+let point1 = Point(x: 0, y: 0)
+let point2 = point1
+//os_retain(point1)
+point2.x = 5
+dump(point1)
+dump(point2)
+//os_release(point1)
+//os_release(point2)
 
  */
 
