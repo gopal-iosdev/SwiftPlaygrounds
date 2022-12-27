@@ -1,17 +1,23 @@
 //: [Previous](@previous)
 
 /*
- Source: https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html
-     https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes
+ Source:
+    - https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html
+    - https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes
+    - https://medium.com/codex/ios-interview-struct-vs-class-performance-metrics-which-one-is-faster-574bf3c8d9d4
  
  NOTE:
     - Classes:
         - Reference Types, Example: Share Google Doc.
         - Requires Heap allocation.
+        - Inheritance: Classes can inherit from other classes, while structs cannot.
+        - Reference cycles: Classes can create reference cycles, which can lead to memory leaks if they are not properly managed.
         
     - Structs:
         - Value Types, Example: Share Excel Sheet
         - Stored in Stack.
+        - Memory management: Classes use reference counting for memory management, while structs do not.
+        - Copy-on-write: Structs use copy-on-write optimization, which means that they are only copied when they are modified.
  
     - Use structures by default.
     - Use classes when you need Objective-C interoperability.

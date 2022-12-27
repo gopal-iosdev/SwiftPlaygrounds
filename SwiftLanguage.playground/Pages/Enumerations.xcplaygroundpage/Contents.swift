@@ -1,10 +1,15 @@
 //: [Previous](@previous)
 
 /*
- Source: https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html
+ Source:
+    - https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html
+    - https://www.avanderlee.com/swift/enumerations/
+ 
  
  NOTE:
     - Swift enumeration cases don’t have an integer value set by default, unlike languages like C and Objective-C. In the CompassPoint example above, north, south, east and west don’t implicitly equal 0, 1, 2 and 3. Instead, the different enumeration cases are values in their own right, with an explicitly defined type of CompassPoint.
+    - fallthrough:
+        - The fallthrough keyword causes program execution to continue from one case in a switch statement to the next case.
     - CaseIterable:
         - To iterate over enum cases.
     - Associated Values:
@@ -14,6 +19,8 @@
         - The raw value initializer is a failable initializer, because not every raw value will return an enumeration case.
     - Recursive Enumerations:
         - A recursive enumeration is an enumeration that has another instance of the enumeration as the associated value for one or more of the enumeration cases.
+    - Enums are comparable by default, so you don’t have to add the Equatable protocol conformance.
+    -
  
  - Enumerations:
     - An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.
@@ -46,6 +53,8 @@
          }
  
  */
+
+import Foundation
 
 /*
 
@@ -214,6 +223,34 @@ print(evaluate(product))
 
 print(evaluate2(product))
  
+ */
+
+// MARK: From avanderlee article
+
+ /*
+
+// fallthrough
+
+enum ImageType {
+    case jpeg
+    case png
+    case gif
+}
+
+let imageTypeToDescribe = ImageType.gif
+
+var description = "The image type \(imageTypeToDescribe) is"
+
+switch imageTypeToDescribe {
+case .gif:
+    description += " animatable, and also"
+    fallthrough
+default:
+    description += " an image."
+}
+
+print(description)
+
  */
 
 //: [Next](@next)
