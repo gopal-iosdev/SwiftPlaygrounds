@@ -29,5 +29,6 @@
         <page name='Automatic Reference Counting'/>
         <page name='Memory Safety'/>
         <page name='Unsafe Swift'/>
+        <page name='OptionSet'/>
     </pages>
 </playground>

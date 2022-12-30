@@ -15,11 +15,13 @@ Source:
 
 import Foundation
 
+/*
+
 let value: String? = "Hello"
 
 print(value.unsafelyUnwrapped)
 
-
+*/
 
 
 //: [Next](@next)
