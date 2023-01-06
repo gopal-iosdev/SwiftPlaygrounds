@@ -8,5 +8,6 @@
         <page name='OptionSet'/>
         <page name='Stride'/>
         <page name='Classes_vs_Structs'/>
+        <page name='Defer Keyword'/>
     </pages>
 </playground>
